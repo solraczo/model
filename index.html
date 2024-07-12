@@ -22,7 +22,7 @@
 
         // Load the GLTF model
         const loader = new THREE.GLTFLoader();
-        loader.load('URL_DE_TU_ARCHIVO_GLTF', function (gltf) {
+        loader.load('https://github.com/solraczo/model/blob/main/modelo.gltf', function (gltf) {
             scene.add(gltf.scene);
             camera.position.z = 5;
             animate();
